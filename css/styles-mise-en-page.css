@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*index*/
+.body_index{
+    background-color: black;
+}
+
+.body_index h2,.body_index h3, .description{
+    text-align: center;
+}
+
+.bloc_index{
+    width: 45vw;
+    margin-top: 33vh;
+    position: absolute;
+    margin-left: 25vw;
+    margin-right: auto;
+}
+.body_index article{
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    position: relative;
+}
+.presentation{
+    background-image: url("../img/fond_micro.png");
+}
+
+.premier_bloc{
+    width: 50vw;
+    padding-top: 10vh;
+    margin-left: 15vw;
+}
+
+.premier_bloc>svg{
+    max-width: 50vw;
+    min-width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline{
+    background-image: url("../img/couleur_fond.png"), url("../img/casque_rose.png");
+    background-attachment: fixed;
+}
+
+.profil{
+    background-image: url("../img/fille.png");
+
+}
+
+.notebook{
+    background-image: url("../img/telephone.png");
+    background-attachment: fixed;
+}
+
+.conf{
+    background-image: url("../img/cle.png");
+}
+
+
+.body_index .cta{
+    width: 10vw;
+    margin: auto;
+    text-align: center;
+}
+
+.presentation>div:nth-child(0n+2){
+    margin-top: 10vh;
+}
+
+
+/*header*/
+
+header{
+    position: absolute;
+    z-index: 1;
+    margin: 2vw;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    display: grid;
+    grid-template-areas:
+            "logo logo autre" "principaux principaux reseaux" "secondaires secondaires resaux";
+}
+
+.logo_waveon{
+    grid-area: logo;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+.liens_principaux{
+    grid-area: principaux;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+.liens_secondaires{
+    grid-area: secondaires;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+}
+.reseaux{
+    grid-area: reseaux;
+    vertical-align: middle;
+}
+
+.reseaux>ul{
+    display: flex;
+}
+.reseaux>ul>li{
+    margin: 1vw;
+    list-style: none;
+}
+
+.reseaux>p{
+    margin-left: 3vw;
+}
+/* pages autres */
+.bandeau{
+    height: 20vh;
+    background-image: url("../img/couleur_fond.png");
+    background-size: cover;
+    padding-top: 8vh;
+}
+
+.bandeau>h1{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: white 1px solid;
+}
+
+.body_autres>section>article>div{
+    margin: 5vw;
+}
+
+.staff {
+    display: grid;
+    grid-template-columns: repeat(3, 33vw);
+}
+
+.texte{
+    text-align: center;
+}
+
+.coordonnees>div:nth-child(2n+1)>p{
+    width: 15vw;
+}
+
+.coordonnees>div:nth-child(0n+2)>p{
+    width: 10vw;
+}
+
+/* fonctionnement */
+
+.body_fonctionnement{
+    background-color: black;
+}
+
+.presentation_fonctionnement{
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../img/casque_gris.png");
+    background-attachment: fixed;
+}
+
+.presentation_fonctionnement h1{
+    padding-top: 40vh;
+    margin-top: 0;
+    margin-left: 15vw;
+    width: 33vw;
+}
+.chapeau{
+    height: 40vh;
+}
+.chapeau>p{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.fonctionnement{
+    background-image: url("../img/couleur_fond.png");
+    background-size: cover;
+    height: 130vh;
+    padding: 5vw;
+}
+
+.fonct_2{
+    text-align: right;
+    position: absolute;
+    right: 5vw;
+}
+
+.fonct_3{
+    padding-top: 33vh;
+}
+
+.fonctionnement> div{
+    width: 33vw;
+}
+
+.body_fonctionnement div.cta{
+    text-align: center;
+    margin-left: 50vw;
+}
+
+.fonct_1>p, .fonct_3>p{
+    border-left: 1px white solid;
+    padding-left: 1vw;
+}
+
+.fonct_2>p{
+    border-right: 1px white solid;
+    padding-right: 1vw;
+}
+
+.fonct_1>h2, .fonct_2>h2, .fonct_3>h2{
+    border-top: #360F9B 1px solid;
+    padding-top: 1vh;
+}
+
+.fleche{
+    margin-left: 15vw;
+}
+/* form */
+
+.body_form section, .body_form div>input{
+    width: 50vw;
+    margin: auto;
+}
+
+.body_form div>input{
+    width: 40vw;
+    height: 4vh;
+    margin: 2vh auto 5vh 5vw;
+    border-radius: 5px;
+    border: none;
+}
+
+div>label{
+    margin-left: 6vw;
+}
+
+fieldset>label{
+    margin-right: 3vw;
+}
+fieldset{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.body_form h1{
+    text-align: center;
+    margin-top: 2vh;
+}

@@ -1,0 +1,148 @@
+/* importation polices */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syncopate:wght@400;700&display=swap');
+
+/* police index */
+.body_index h1,.body_index h2,.body_index h3, .nom_btn{
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+}
+.body_index h1{
+    color: white;
+    font-size:40px;
+}
+
+.description{
+    font-family: Roboto, sans-serif;
+}
+
+.bloc_index p{
+    font-size: 22px;
+}
+
+.nom_btn{
+    font-family: Syncopate, sans-serif;
+}
+
+h2{
+    font-size: 50px;
+}
+.bloc_index h3{
+    color: #EAB445;
+    font-size: 30px;
+}
+
+.blanc{
+    color: white;
+}
+
+.rose{
+    color:#FFB9D5;
+}
+
+.body_index p {
+    color: white;
+}
+
+/* footer */
+footer{
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+
+.liens_principaux a:hover, .liens_secondaires a:hover{
+    font-size: 14px;
+    transition: 0.5s;
+}
+.reseaux>p{
+    color: #6C46CE
+}
+/* pages autres */
+.bandeau>h1{
+    font-family: "Syncopate", sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: right;
+}
+.body_autres p{
+    font-family: "Roboto", sans-serif;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+.body_autres h2{
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFB9D5;
+}
+
+/* fonctionnement */
+.body_fonctionnement h1, .body_fonctionnement h2, .chapeau>p, .body_form h1{
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.body_fonctionnement h1, .body_fonctionnement h2, .body_form h1{
+    font-size: 50px;
+}
+
+.chapeau>p{
+    font-size: 20px;
+}
+
+.fonctionnement p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.fonctionnement h3{
+    color: #360F9B;
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.body_fonctionnement div.cta>p{
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+
+/* form */
+
+.form_inscription, .ou{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.form_inscription>p, .ou{
+    text-align: center;
+}
+.form_inscription a{
+    color: #FFB9D5;
+    text-decoration: none;
+}
+
+.form_inscription a:hover{
+    color: #EAB445;
+    text-decoration: none;
+    animation: 0.5s;
+}
+
+input{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.inscrire{
+    background-color: #FFB9D5;
+}
+
+.inscrire:hover{
+    background-color: #6C46CE;
+    color: white;
+}

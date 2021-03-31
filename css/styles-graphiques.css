@@ -1,0 +1,88 @@
+/*index*/
+button{
+    background-color: rgb(0,0,0,0);
+    border: none;
+}
+
+button:hover #Ellipse_35{
+    fill: white;
+    animation: blink 2s ease-in-out infinite;
+}
+
+
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+/*footer*/
+
+.liens_principaux a{
+    color: white;
+}
+
+.liens_secondaires a{
+    color: grey;
+}
+
+.liens_principaux a, .liens_secondaires a{
+    text-decoration: none;
+    line-height: 2em;
+}
+/*pages autres*/
+.body_autres{
+    background-color: black;
+}
+
+.body_autres p{
+    color: white;
+}
+
+/* form */
+.body_form {
+    background-image: url("../img/cd.png");
+    background-attachment: fixed;
+}
+
+#email:focus::placeholder, #email_conf:focus::placeholder, #pseudo:focus::placeholder{
+    opacity: 0;
+}
+
+.body_form button{
+    background-color: #6C46CE;
+    color: white;
+    font-size: 18px;
+    width: 50vw;
+    text-align: center;
+    height: 5vh;
+    border-radius: 20px;
+}
+
+.body_form button:hover{
+    background-color: white;
+    color: #6C46CE;
+}
+/* autres */
+
+header>div:hover #Logo_-_header{
+    animation: bouge 1s ease-in-out infinite;
+}
+
+@keyframes bouge {
+    0%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(1px);
+    }
+    100%{
+        transform: translateY(-1px);
+    }
+}
